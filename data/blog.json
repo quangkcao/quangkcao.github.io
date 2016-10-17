@@ -1,0 +1,13 @@
+{
+	"articles" :[
+		{
+			"title": "quick link 1",
+			"date": "April 30 2015",
+			"content": "test"
+		},{
+			"title": "quick link 1",
+			"date": "April 30 2015",
+			"content": "Lorem Ipsum <img width=\"100%\" src=\"https://scontent-sea.xx.fbcdn.net/hphotos-xfp1/v/t1.0-9/11167912_10206555928763763_5123271249549596844_n.jpg?oh=f18fa8960fb9b2bbc0f0c1d99bafa15f&oe=55C604FE\"/>is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum"
+		}
+  ]
+}

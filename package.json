@@ -1,0 +1,16 @@
+{
+  "name": "About",
+  "private": true,
+  "version": "0.1.0",
+  "description": "About help to build personal resume/blog. I's built on AngularJS seed project",
+  "repository": "https://github.com/quangkcao/about",
+  "license": "MIT",
+  "devDependencies": {
+    "http-server": "^0.6.1",
+    "requirejs": "^2.1.15"
+  },
+  "scripts": {
+    "prestart": "npm install",
+    "start": "http-server -a localhost -p 8000 -c-1 app"
+  }
+}

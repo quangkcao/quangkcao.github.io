@@ -1,0 +1,52 @@
+<header></header>
+<main class="container">
+  <div class="clearfix">
+    <div id="profile-section" class="col-1">
+      <div class="desc">
+        <img align="left" style="margin-right:10px;" class="avatar" src="../images/projun2015.jpg" width="93" height="104">
+        Full-stack engineer delights people with fully interactive and cross-platform websites using latest modern web technology stacks.
+        <div style="padding-top:35px;">
+          <p class="size-small"><i>Zend Certified Engineer</i></p>
+          <p class="size-small"><i>Holds a BS degree in Computer Science, and a BS degree in Supply Chain Management</i></p>
+      </div>
+      </div>
+      <div class="margin-more-top-bottom text-center">
+        <a href="#" class="underline-none color-white more-btn"><i class="fa fa-circle"></i> <i class="fa fa-circle"></i> <i class="fa fa-circle"></i></a>
+      </div>
+      <div id="social-section" class="pad-more">
+        <ul class="horizontal">
+          <li><a class="event-social" name="Facebook" href="http://goo.gl/kelsy3" target="parent" rel="nofollow"><i class="sprite-social icon-in"></i></a></li>
+          <li><a class="event-social" name="Twitter" href="http://goo.gl/IyoXoA" target="parent" rel="nofollow"><i class="sprite-social icon-twt"></i></a></li>
+          <li><a class="event-social" name="Email"  href="mailto:quangkcao@gmail.com?subject=@quangkcao"><i class="sprite-social icon-email"></i></a></li>
+        </ul>
+      </div>
+    </div>
+    <div id="detail-section" class="col-2">
+      <div id="detail-more-section" class="hidden">
+        <div class="box" data-ng-bind-html="detailBox"></div>
+        <div class="pad-top-bottom">
+          <a href="#" class="back-btn bold underline-none size-medium color-white">
+            <i class="fa fa-arrow-circle-left"></i>
+          </a>
+        </div>
+      </div>
+      <div id="node-container">
+        <ul class="horizontal-boxes">
+          <li ng-repeat="ex in expertises">
+            <a class="underline-none element-box expertise" name="{{ex.id}}" href="#">
+              <div class="pad text-center">
+                <div data-ng-bind-html="ex.label"></div>
+              </div>
+            </a>
+          </li>
+        </ul>
+        <div class="pad-top-bottom text-center">
+          <a href="#" class="back-btn bold underline-none size-medium color-white">
+            <i class="fa fa-arrow-circle-left"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+<footer></footer>

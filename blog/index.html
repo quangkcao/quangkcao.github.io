@@ -1,0 +1,21 @@
+<header></header>
+<main>
+  <div class="container">
+    <h1 class="title">My Blog</h1>
+        <div ng-repeat="article in articles">
+          <div class="row">
+            <div class="round_box" style="margin:5px 0;">
+              <h3>{{article.title}}</h3>
+              <div>{{article.date}}</div>
+              <div class="desc" ng-bind-html="article.content"></div>
+            </div>
+        </div>
+    </div>
+  </div>
+</main>
+<footer>
+  <div class="text_center" style="padding: 20px 0">
+    Contact me on <a href="{{author.linkedin}}" name="LinkedIn" class="event_social" target="_blank"><b>LinkedIn</b></a>
+    or <a href="{{author.twitter}}" name="Twitter" class="event_social" target="_blank"><b>Twitter</b></a>
+  </div>
+</footer>
